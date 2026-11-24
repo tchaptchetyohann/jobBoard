@@ -108,6 +108,9 @@ body {
     transform: translate(-3px);
     background:#343a40;
 }
+.job-details{
+    background-color: blue;
+}
 .details-heard{
     background-color: #343a40;
     min-height: auto;

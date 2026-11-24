@@ -66,15 +66,35 @@
 </nav>
 
 
-<div class="container d-flex justify-content-center align-items-center gap-2 mt-4 w-auto " id="searchdiv">
 
-    <input type="text" class="form-control w-30"  >
-    <input type="text" class="form-control w-30" >
-    <button class="btn btn-primary  bg-dark">
-        <i class="bi bi-search"></i>
-    </button>
+<div class="container d-flex justify-content-center align-items-center mt-4"
+     id="searchdiv">
+
+    <div class="search-box d-flex align-items-center">
+
+        <i class="bi bi-search text-secondary ml-3"></i>
+
+        <input type="text"
+               class="form-control border-0 shadow-none"
+               placeholder="Job title, keywords or company">
+
+        <div class="search-divider"></div>
+
+        <i class="bi bi-geo-alt text-secondary ml-3"></i>
+
+        <input type="text"
+               class="form-control border-0 shadow-none"
+               placeholder="City or location">
+
+        <button class="btn btn-dark rounded-pill px-4 ml-2">
+            Search
+        </button>
+
+    </div>
+
 </div>
-<div style="height: 30px;">
+
+<div style="height: 30px; text-align: center; margin-top: 20px ">
  <h2> WELCOME </h2>
 </div>
 
